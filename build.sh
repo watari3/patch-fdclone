@@ -22,7 +22,7 @@ rm -rf $fname
 ###
 cd ${dir}
 
-patch < ../patch/fd.spec
+patch < ../patch/fd.spec.patch
 
 cd ..
 
